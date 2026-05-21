@@ -1,0 +1,27 @@
+# Local secrets - never commit
+Claude token API - Pairflow.txt
+*token*.txt
+*.env
+.env.local
+.env.*.local
+
+# Node / Vite
+node_modules
+dist
+dist-ssr
+.vite
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# TypeScript
+*.tsbuildinfo
